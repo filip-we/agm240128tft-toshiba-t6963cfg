@@ -1,0 +1,27 @@
+# Pinout
+
+This describes the pinout of the display, as reversed engineered by me. The main method has been to check continuity from the pins to the T6963CFG.
+
+
+Board   T6963   T6963
+Pin     Pin     Desc.
+ 1      61      GND
+ 2      27      PWR
+ 3      -       NC? Connected to R7 which is not populated.
+ 4      21      C/D
+ 5      19      ^RD
+ 6      18      ^WR
+ 7      10      D0
+ 8      11      D1
+ 9      12      D2
+10      13      D3
+11      14      D4
+12      15      D5
+13      16      D6
+14      17      D7
+15      20      ^CE
+16       2      ^RESET
+17
+18       6      MD2
+19       9      FS1
+20
